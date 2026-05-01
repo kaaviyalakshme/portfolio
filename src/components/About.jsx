@@ -12,7 +12,7 @@ const About = ({darkMode}) => {
                         {/* Image */}
                         <div className="absolute -inset-4 lg:-inset-20 bg-gradient-to-l from-[#f97316] via-[#fb923c] to-[#f59e0b] rotate-12 star-shape z-0"
                         data-aos='zoom-in'
-                        data-aos-delays='600'
+                        data-aos-delay='600'
                         >
 
                         </div>
@@ -36,11 +36,12 @@ const About = ({darkMode}) => {
                             About Me
                         </h1>
                     </header>
-                        <p className={`text-sm sm:text-base lg:text-lg xl:text-xl mb-6 sm:mb-8 leading-relaxed bg-linear-to-r from-orange-900/10 to-orange-900/5 p-4 sm:p-6 rounded-xl sm:rounded-2xl backdrop-blur-sm ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
+                        <p className={`text-sm sm:text-base lg:text-lg xl:text-xl mb-6 sm:mb-8 leading-relaxed bg-gradient-to-r from-orange-900/10 to-orange-900/5 p-4 sm:p-6 rounded-xl sm:rounded-2xl backdrop-blur-sm ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
                         data-aos='fade-up'
                         data-aos-delay='500'
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rem totam eligendi quo dolor blanditiis magnam ullam nam non ad placeat explicabo est nostrum minima facilis, nesciunt perspiciatis, autem commodi?
+                         Frontend Developer Fresher passionate about building responsive and user-friendly web applications. I enjoy creating clean UI, solving problems, and continuously learning modern web technologies to improve user experience.
+
                         </p>
                         <div className='flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8'>
                             {/* Education */}
@@ -48,8 +49,8 @@ const About = ({darkMode}) => {
                             className='text-center'
                             data-aos='zoom-in'
                             data-aos-delay='600'>
-                                <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400' >5+</div>
-                                <div className={`text-xs sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Education</div>
+                                <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400' >8.9 CGPA</div>
+                                <div className={`text-xs sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Academic Performance</div>
 
                             </div>
                             {/* Years of Experience */}
@@ -57,8 +58,8 @@ const About = ({darkMode}) => {
                             className='text-center'
                             data-aos='zoom-in'
                             data-aos-delay='650'>
-                                <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400' >10+</div>
-                                <div className={`text-xs sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Years of Experience</div>
+                                <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400' >2</div>
+                                <div className={`text-xs sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Internship</div>
 
                             </div>
                             {/* Projects Completed */}
@@ -66,7 +67,7 @@ const About = ({darkMode}) => {
                             className='text-center'
                             data-aos='zoom-in'
                             data-aos-delay='700'>
-                                <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400' >100+</div>
+                                <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400' >5+</div>
                                 <div className={`text-xs sm:text-sm lg:text-base ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Projects completed</div>
 
                             </div>

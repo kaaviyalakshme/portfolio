@@ -25,7 +25,7 @@ const Footer = ({ darkMode }) => {
                        className="text-sm"
                        style={{
                         color: darkMode ? '#9ca3af' : '#6b7280'
-                       }} >Full stack Developer & UI/UX Designer
+                       }} >Frontend Developer | Aspiring Software Engineer
                     </p>
 
 
@@ -58,7 +58,7 @@ const Footer = ({ darkMode }) => {
                         <FaHeart className = "text-red-500"/>
                         by <span
                             className="mt-1 text-[#f97316]">
-                                QualiCode
+                                Kaaviya Lakshme
                         </span>
 
                     </p>

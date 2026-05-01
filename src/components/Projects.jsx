@@ -3,54 +3,41 @@ import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
-import project5 from '../assets/project5.png'
-import project6 from '../assets/project6.png'
+
 
 
 const Projects = ({ darkMode }) => {
     const projects = [
         {
-            id:1,
-            title:'E-Commerce Platform',
-            desc:'ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, voluptate.',
-            image: project1,
-            tags: ['React', 'Node.js', 'MongoDB']
+            id: 1,
+    title: 'Weather Application',
+    desc: 'A responsive web application that fetches and displays real-time weather data using OpenWeather API with dynamic UI updates.',
+    image: project1,
+    tags: ['HTML', 'CSS', 'JavaScript', 'REST API']
         },
         {
-            id:2,
-            title:'Fitness Tracker App',
-            desc:'ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, voluptate.',
-            image: project2,
-            tags: ['React Native', 'Firebase']
+            id: 2,
+    title: 'AI-Based Image Forgery Detection',
+    desc: 'A deep learning-based system that detects forged images using CNN with a Flask web interface for image upload and prediction.',
+    image: project2,
+    tags: ['Python', 'CNN', 'Flask', 'Machine Learning']
         },
         {
-            id:3,
-            title:'Task Management App',
-            desc:'ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, voluptate.',
-            image: project3,
-            tags: ['python', 'openAI']
+            id: 3,
+    title: 'Brain Tumor Classification',
+    desc: 'A CNN-based model for classifying brain tumor images with improved accuracy using image preprocessing techniques.',
+    image: project3,
+    tags: ['Python', 'CNN', 'Image Processing']
         },
         {
-            id:4,
-            title:'E-Commerce Platform',
-            desc:'ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, voluptate.',
-            image: project4,
-            tags: ['Chart.js', 'Vue.js']
+            id: 4,
+    title: 'Email Spam Classifier',
+    desc: 'A machine learning model that classifies emails as spam or non-spam using NLP techniques and text preprocessing.',
+    image: project4,
+    tags: ['Python', 'NLP', 'Machine Learning']
+    
         },
-        {
-            id:5,
-            title:'Brain tumour detection',
-            desc:'ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, voluptate.',
-            image: project5,
-            tags: ['Laravel', 'Node.js']
-        },
-        {
-            id:6,
-            title:'E-Commerce Platform',
-            desc:'ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, voluptate.',
-            image: project6,
-            tags: [ 'Next.js', 'three.js']
-        },
+        
         
 
     ]

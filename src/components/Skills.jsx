@@ -1,21 +1,21 @@
-import laravel from '../assets/laravel.png'
-import framer_motion from '../assets/framer_motion.png'
-import vue from '../assets/vue.png'
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
-import firebase from '../assets/firebase.png'
+import java from '../assets/java.png'
 import python from '../assets/python.png'
-import vite from '../assets/vite.png'
+import sql from '../assets/sql.png'
 const Skills = ({ darkMode }) => {
     const skills = [
-        {name: 'laravel', icon: laravel, level:95, color: 'from-orange-500 to-amber-500'},
-        {name: 'framer_motion', icon: framer_motion, level:90, color: 'from-blue-500 to-cyan-500'},
-        {name: 'vue', icon: vue, level:88, color: 'from-yellow-500 to-amber-500'},
+        {name: 'HTML', icon: html, level:95, color: 'from-orange-500 to-amber-500'},
+        {name: 'CSS', icon: css, level:90, color: 'from-blue-500 to-cyan-500'},
+        {name: 'Javascript', icon: javascript, level:88, color: 'from-yellow-500 to-amber-500'},
         {name: 'React', icon: react, level:85, color: 'from-cyan-500 to-blue-500'},
         {name: 'Tailwind CSS', icon: tailwind, level:92, color: 'from-teal-500 to-cyan-500'},
-        {name: 'Firebase', icon: firebase, level:92, color: 'from-green-500 to-emerald-500'},
-        {name: 'Python', icon: python, level:75, color: 'from-blue-500 to-indigo-500'},
-        {name: 'vite', icon: vite, level:85, color: 'from-red-500 to-orange-500'},
+        {name: 'Java', icon: java, level:92, color: 'from-green-500 to-emerald-500'},
+        {name: 'Python', icon: python, level:85, color: 'from-blue-500 to-indigo-500'},
+        {name: 'SQL', icon: sql, level:85, color: 'from-red-500 to-orange-500'},
 
     ];
   return (
@@ -51,7 +51,7 @@ const Skills = ({ darkMode }) => {
                         color: darkMode ? '#d1d5db' : '#4b5563'
 
                     }}
-                    >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nisi voluptatem quas repellat officia eveniet, aut nostrum iusto ducimus provident quasi laborum vero magnam quibusdam fugiat aperiam mollitia deleniti? Quaerat.
+                    >Skilled in frontend development and programming with experience in building responsive web applications and working with REST APIs.
                     
                     
                     </p>
@@ -72,7 +72,7 @@ const Skills = ({ darkMode }) => {
                                 background: darkMode ? 'linear-gradient(to bottom right, #1f2937, #111827)' : 'linear-gradient(to bottom right, #ffffff, #f3f4f6)',
                                 borderColor: darkMode ? '#374151' : '#e5e7eb'
                             }}
-                            className='h-full p-6 rounded-2xl border hover:border-orange-500/50 transition-all duration-300 hover:-translate-y-2 group hover:shadow-[0_0_30px_rgb(255, 165,0,0,0.15)]'>
+                            className='h-full p-6 rounded-2xl border hover:border-orange-500/50 transition-all duration-300 hover:-translate-y-2 group hover:shadow-[0_0_30px_rgb(255, 165,0,0.15)]'>
                                 <div className='flex items-center mb-6'>
                                     <div
                                     style={{
@@ -109,7 +109,7 @@ const Skills = ({ darkMode }) => {
                                     <span
                                     style={{
                                         background: 'linear-gradient(to right, #f97316, #f59e0b)',
-                                        webkitBackgroundClip: 'text',
+                                        WebkitBackgroundClip: 'text',
                                         backgroundClip: 'text',
                                         color: 'transparent'
 

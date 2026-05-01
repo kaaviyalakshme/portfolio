@@ -1,17 +1,16 @@
-import instagram from '../assets/instagram.png'
-import tiktok from '../assets/tiktok.png'
+import mail from '../assets/mail.webp'
+import linkedin from '../assets/linkedin.png' 
 import github from '../assets/github.png'
-import youtube from '../assets/youtube.png'
 import hero from '../assets/hero.png'
 import hi from '../assets/hi.png'
 import CV from '../assets/CV.pdf'
 import { Download, Mail } from 'lucide-react'
 const Hero = ({ darkMode }) => {
     const socialIcons = [
-        { icon: instagram, alt: 'Instagram' },
-        { icon: tiktok, alt: 'TikTok' },
+        { icon: mail, alt: 'Mail' },
+        { icon: linkedin, alt: 'LinkedIn' },
         { icon: github, alt: 'GitHub' },
-        { icon: youtube, alt: 'YouTube' },
+        
         
     ];
     const darkTheme = {
@@ -59,12 +58,17 @@ const Hero = ({ darkMode }) => {
                         <h1 className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg ${theme.textSecondary}`}
                         data-aos='fade-up'
                         data-aos-delay='500'>
-                        Hi, I'm QualiCode
+                        Hi, I'm Kaaviya Lakshme 👋
                         </h1>
+                        <h2 className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg ${theme.textSecondary}`}
+                        data-aos='fade-up'
+                        data-aos-delay='500'>
+                            Frontend Developer | Aspiring Software Engineer
+                        </h2>
                         <p className={`text-lg sm:text-xl ${theme.textSecondary}`}
                         data-aos='fade-up'
                         data-aos-delay='600'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est expedita quos dolore provident ullam repellendus commodi reiciendis, sapiente consectetur culpa itaque asperiores facere porro, eaque inventore dolor excepturi maiores? Optio.
+                             I build responsive and user-friendly web applications using HTML, CSS, and JavaScript.I enjoy creating clean, interactive interfaces and continuously learning modern web technologies.
                         </p>
                         {/* Buttons */}
                         <div className='w-full pt-4 sm:pt-6'>
